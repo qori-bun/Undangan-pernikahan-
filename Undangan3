@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan Qoribun & Nurul Lathifah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fefefe;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('https://source.unsplash.com/1600x900/?wedding') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      animation: fadeIn 3s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h1, h2, h3 {
+      font-family: 'Great Vibes', cursive;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .ayat {
+      font-style: italic;
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 20px auto;
+      border-left: 4px solid #ccc;
+      max-width: 600px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .rsvp {
+      margin-top: 20px;
+    }
+    .rsvp input, .rsvp textarea {
+      padding: 10px;
+      width: 80%;
+      margin: 10px auto;
+      display: block;
+    }
+    footer {
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<audio autoplay loop hidden>
+  <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div class="hero">
+  <div>
+    <h1>Qoribun & Nurul Lathifah</h1>
+    <p>5 Agustus 2025</p>
+    <p>Undangan Pernikahan</p>
+  </div>
+</div>
+
+<section>
+  <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
+  <div class="ayat">
+    "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu merasa tenteram kepadanya dan dijadikan-Nya di antaramu rasa kasih dan sayang."<br>
+    <strong>(QS. Ar-Rum: 21)</strong>
+  </div>
+</section>
+
+<section>
+  <h2>Assalamu’alaikum Warahmatullahi Wabarakatuh</h2>
+  <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:</p>
+  <h3>Qoribun</h3>
+  <p>Anak ke-5 dari Bapak Hasanuddin dan Ibu Siti Alimah</p>
+  <h3>&</h3>
+  <h3>Nurul Lathifah</h3>
+  <p>Anak pertama dari Bapak Ma'an Priyadi (Alm) dan Ibu Tokhanah</p>
+</section>
+
+<section>
+  <h2>Waktu Akad</h2>
+  <p>Selasa, 5 Agustus 2025</p>
+  <p>Pukul 09.00 WIB</p>
+  <p>Tempat: Rumah Mempelai Wanita</p>
+</section>
+
+<section class="gallery">
+  <h2>Galeri</h2>
+  <img src="https://source.unsplash.com/300x400/?bride" alt="Galeri 1">
+  <img src="https://source.unsplash.com/300x400/?groom" alt="Galeri 2">
+  <img src="https://source.unsplash.com/300x400/?couple" alt="Galeri 3">
+</section>
+
+<section class="rsvp">
+  <h2>RSVP</h2>
+  <form>
+    <input type="text" placeholder="Nama Anda" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="4" placeholder="Ucapan dan Doa" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+</section>
+
+<footer>
+  <p>Terima kasih atas doa dan restunya</p>
+  <p>Qoribun & Nurul Lathifah</p>
+</footer>
+
+</body>
+</html>
